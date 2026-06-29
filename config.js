@@ -182,7 +182,7 @@ const config = {
         name: '9oraydis-AI',
         link: ''
     }
-  const config =  { 
+config =  { 
     bot: { name: 'L9oraydis-bot', number: '2126xxxxxxxx' },
     session: { path: './sessions', usePairingCode: true },
      saluran: { id: '120363208449943317@newsletter', name: '9oraydis-AI', link: '' }
@@ -244,7 +244,6 @@ function getConfig() {
 }
 
 module.exports = {
-    config,
     config,
     getConfig,
     isOwner,
