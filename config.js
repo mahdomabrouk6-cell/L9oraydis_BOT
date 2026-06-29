@@ -182,12 +182,17 @@ const config = {
         name: '9oraydis-AI',
         link: ''
     }
-}
+const config = {
+    bot: { name: 'L9oraydis-bot', number: '2126xxxxxxxx' },
+    session: { path: './sessions', usePairingCode: true },
+    saluran: { id: '120363208449943317@newsletter', name: '9oraydis-AI', link: '' }
+  
+};//
 
 function isOwner(number) {
     if (!number) return false
     const cleanNumber = number.replace(/[^0-9]/g, '')
-    
+    }
     if (config.bot.number) {
         const botClean = config.bot.number.replace(/[^0-9]/g, '')
         if (cleanNumber.includes(botClean) || botClean.includes(cleanNumber)) {
