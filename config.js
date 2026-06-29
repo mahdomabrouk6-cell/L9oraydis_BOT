@@ -241,7 +241,7 @@ function getConfig() {
 }
 
 module.exports = {
-    ...config,
+    config,
     config,
     getConfig,
     isOwner,
