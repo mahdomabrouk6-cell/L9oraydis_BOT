@@ -118,7 +118,7 @@ const config = {
     // STICKER
     // ═══════════════════════════════════════════════════════════════
     sticker: {
-        packname: 'Ourin-AI',
+        packname: '9oraydis-AI',
         author: 'Bot'
     },
 
@@ -179,7 +179,7 @@ const config = {
     // ═══════════════════════════════════════════════════════════════
     saluran: {
         id: '120363208449943317@newsletter',
-        name: 'Ourin-AI',
+        name: '9oraydis-AI',
         link: ''
     }
 }
