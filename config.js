@@ -22,8 +22,8 @@ const config = {
     // Contoh: ['6281234567890'] atau ['6281234567890', '6289876543210']
     //
     owner: {
-        name: 'Owner',
-        number: ['628xxxxxxxxxx']
+        name: 'Mehdi',
+        number: ['212694985503']
     },
 
     // ═══════════════════════════════════════════════════════════════
@@ -33,13 +33,13 @@ const config = {
     // 'public' = Semua orang bisa menggunakan bot
     // 'self'   = Hanya bot sendiri (fromMe) yang bisa menggunakan
     //
-    mode: 'public',
+    mode: 'self',
 
     // ═══════════════════════════════════════════════════════════════
     // INFORMASI BOT
     // ═══════════════════════════════════════════════════════════════
     bot: {
-        name: 'Ourin-AI',
+        name: 'l9oraydis-bot',
         version: '1.2.0',
         description: 'WhatsApp Multi-Device Bot',
         developer: 'Lucky Archz',
@@ -126,17 +126,15 @@ const config = {
     // PESAN BOT
     // ═══════════════════════════════════════════════════════════════
     messages: {
-        wait: '⏳ Tunggu sebentar...',
-        success: '✅ Berhasil!',
-        error: '❌ Terjadi kesalahan!',
-        ownerOnly: '🚫 Command ini khusus owner!',
-        premiumOnly: '💎 Command ini khusus premium!',
-        groupOnly: '👥 Command ini hanya untuk grup!',
-        privateOnly: '📱 Command ini hanya untuk private chat!',
+        wait: '⏳ دقيقة، كنوجد ليك الطلب...',
+        success: '✅ تم بنجاح!',
+        error: '❌ والو خطأ سير تا تعلم وجي.',
+        ownerOnly: '🚫 لملاوي هاد لبلان خاص غير لقريدس.',
+        premiumOnly: '💎 هاد الأمر خاص غير بالناس الـمقودين.',
+        grgroupOnly:'👥 هاد الأمر كيخدم غير هنا اتبي.', 
         cooldown: '⏱️ Tunggu %time% detik lagi!',
         limitExceeded: '📊 Limit harian kamu sudah habis!',
-        banned: '🚫 Kamu dibanned dari bot ini!'
-    },
+        banbanned: '🚫 راك مباندي من البوت، اوق متقدرش تستعملو.',
 
     // ═══════════════════════════════════════════════════════════════
     // SCHEDULER
