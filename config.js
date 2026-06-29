@@ -43,7 +43,7 @@ const config = {
         version: '1.2.0',
         description: 'WhatsApp Multi-Device Bot',
         developer: 'Lucky Archz',
-        number: null
+        number: '212694985503',
     },
 
     // ═══════════════════════════════════════════════════════════════
