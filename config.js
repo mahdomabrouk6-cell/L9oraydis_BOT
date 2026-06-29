@@ -192,7 +192,7 @@ const config = {
 function isOwner(number) {
     if (!number) return false
     const cleanNumber = number.replace(/[^0-9]/g, '')
-    }
+    };
     if (config.bot.number) {
         const botClean = config.bot.number.replace(/[^0-9]/g, '')
         if (cleanNumber.includes(botClean) || botClean.includes(cleanNumber)) {
